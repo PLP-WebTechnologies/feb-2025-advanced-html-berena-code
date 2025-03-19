@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Study Group</title>
+    </head>
+    <body>
+        <h1>Purpose Of The Study Group</h1>
+        <img src="Study.jpg" alt="Image of a Study Group" width="400" height="300">
+        <p>This study group is meant to assist all members throughout their journey in learning HTML for the next 2 months of the program. The following are the benefits of joining the group:</p>
+        <ol type ="i" start = "i">
+            <li>Improved understanding. You will learn different approaches to coding and problem solving.</li>
+            <li>Collaborative learning. You will get to exchange ideas and clarify any doubts with your peers.</li>
+            <li>Hands on practice. Working as a group in projects and real wolrd examples.</li>
+            <li>Confidence building. You will gain confidence through peer to peer feedback and discussions amongst each other.</li>
+            <li>Networking. Connecting with like minded learners for future support and other opportunities.</li>
+            <li>Accountability. Staying motivated and consistent with coursework.</li>
+            <li>Fun. Enjoying the learning process and making new friends.</li>
+        </ol>
+        <h3>Study Group Members</h3>
+        <table border="1">
+            <caption>Members Information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Genna</td>
+                    <td>genna853@gmail.com</td>
+                    <td>Nairobi</td>
+                    <td>Kenya</td>
+                </tr>
+                <tr>
+                    <td>James</td>
+                    <td>james303@yahoo.com</td>
+                    <td>Lagos</td>
+                    <td>Nigeria</td>
+                </tr>
+                <tr>
+                    <td>Prudence</td>
+                    <td>pru67nce@gmail.com</td>
+                    <td>Cape Town</td>
+                    <td>South Africa</td>
+                </tr>
+                <tr>
+                    <td>Josh</td>
+                    <td>mjosh76@outlook.com</td>
+                    <td>Huye</td>
+                    <td>Rwanda</td>
+                <tr>
+                    <td>Emily</td>
+                    <td>emm123ly@outlook.com</td>
+                    <td>Nakuru</td>
+                    <td>Kenya</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Study Group Registration Form</h3>
+        <video src="study video.mp4" alt="Study Video" width="500" height="500" autoplay muted loop></video>
+        <form action="submit.php" method="POST">
+            <!-- Name input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <!-- Gender input -->
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Male"> Male
+            <br><br>
+            
+            <!-- Email input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <!-- Date of Birth input -->
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="date" required><br><br>
+            
+            <!-- Time Zone input -->
+            <label for="time">Time Zone:</label>
+            <select name="time" id="time">
+                <option value="EAT">EAT (East African Time)</option>
+                <option value="WAT">WAT (West Africa Time)</option>
+                <option value="CAT">CAT (Central Africa Time)</option>
+                <option value="SAST">SAST (South Africa Standard Time)</option>
+                <option value="EET">EET (Eastern European Time)</option>
+            </select><br><br>
+            
+            <!-- Preferred Time Slot -->
+            <label for="preferred time slot">Preferred Time Slot:</label>
+            <input type="checkbox" name="time_slot" value="Morning"> Morning
+            <input type="checkbox" name="time_slot" value="Afternoon"> Afternoon
+            <input type="checkbox" name="time_slot" value="Evening"> Evening<br><br>
+            
+            <!-- Describe yourself input -->
+            <label for="Describe yourself">Describe yourself:</label>
+            <textarea name="describe yourself" id="Write something about yourself..."></textarea><br><br>
+            
+            <!-- Form buttons -->
+            <button>Register</button>
+            <input type="button" value="Cancel">
+            <br><br>
+        </form>
+    </body>
+</html>
